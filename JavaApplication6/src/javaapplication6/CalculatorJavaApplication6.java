@@ -28,6 +28,7 @@ public class CalculatorJavaApplication6 {
         
         if(func == 0){
             //toplama
+            System.out.println(Toplama(a, b));
         }else if(func == 1){
             //çikarma
             System.out.println(Çıkarma(a, b));
@@ -41,8 +42,12 @@ public class CalculatorJavaApplication6 {
         
     }
     
+
     public static int Çıkarma(int a, int b){
         return a - b;
+    }
+    public static int Toplama(int a, int b){
+        return a + b;
     }
     
 }
