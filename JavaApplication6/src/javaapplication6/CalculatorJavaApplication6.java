@@ -30,6 +30,7 @@ public class CalculatorJavaApplication6 {
             //toplama
         }else if(func == 1){
             //çikarma
+            System.out.println(Çıkarma(a, b));
         }else if(func == 2){
             //çarpma
         }else if(func == 3){
@@ -38,6 +39,10 @@ public class CalculatorJavaApplication6 {
             System.out.println("Hatali islem");
         }
         
+    }
+    
+    public static int Çıkarma(int a, int b){
+        return a - b;
     }
     
 }
